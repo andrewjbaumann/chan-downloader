@@ -5,11 +5,8 @@ import urllib
 import urllib2
 from urllib2 import urlopen
 
-# url = raw_input("What is the 4chan URL?")
-# lpath = raw_input("What is the path?")
-
-url = "https://boards.4chan.org/v/thread/318657508/hows-your-gaming-pc-build-coming-along"
-lpath = "C:\\Users\\Abaumann\\workspace\\4chan-image-downloader\\New folder\\"
+url = raw_input("What is the 4chan URL?")
+lpath = raw_input("What is the path?")
 images = list()
 
 if "https://boards.4chan.org/" not in url:
